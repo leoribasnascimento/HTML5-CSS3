@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim Informativo</title>
+</head>
+<body>
+   <h1>Como usar o emulador de terminal Putty</h1>
+   <p>Passo 1. Faça o download do software clicando </p> 
+   <p>Passo 2. O PuTTy não é um arquivo para ser instalado. Sendo assim, escolha um diretório para colocá-lo. Uma vez clicado no arquivo, o programa abrirá;</p>
+   <p>Passo 3. Nós vamos criar uma conexão de tunelamento SSH e acessar sites bloqueados ignorando as configurações e bloqueios que possam existir na rede. A máquina estará rodando na porta 22, que já vem definida;</p>
+   <img src="putty1-700.png" alt="Tela de Configuração do PuTTy - Session">
+   <p>Passo 4. Vá em ‘Session’ e digite o "IP" da máquina que deseja acessar;</p>
+   <p>Passo 5. Em "Saved Sessions", digite um nome para o perfil desse servidor. Pode ser o próprio IP ou qualquer palavra que te ajude a lembrar a que perfil está associado. Depois, clique em "Save", na lateral;</p>
+   <p>Passo 6. Na opção “Connection”, clique no sub menu ‘Data’. No campo "Auto-login username", digite seu nome de usuário administrador ou ‘root’. Deixe o resto com está;</p>
+   <img src="putty2-700.png" alt="Tela de Configuração do PuTTy - Data">
+   <p>Passo 7. Vá em "SSH", sub-menu "Tunnels" e configure a source port para 1080 e clique em "add";</p>
+   <p>Passo 8. Caso o computador que deseja acessar possua autenticação, configure o usuário e senha no menu "Connections", no sub menu "Proxy";</p>
+   <p>Passo 9. Selecione o perfil salvo e clique em "Load" e "Open";</p>
+   <p>Passo 10. Na primeira vez, aparecerá uma mensagem avisando sobre a criação de chaves criptográficas de acesso. Clique em "aceitar".</p>
+</body>
+</html>
